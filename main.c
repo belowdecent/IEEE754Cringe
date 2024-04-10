@@ -83,6 +83,11 @@ typedef union {
 // 0 10000000011 1110000000000000000000000000000000000000000000000000
 //
 //
+// (Note 2: THERE ARE A LOT MORE TO FLOATING POINT NUMBERS,
+// THAN JUST THAT. But when working with relatively normal FP numbers,
+// it's pretty much just that afaik)
+//
+//
 // HOW TO ABUSE THIS TO TRUNCATE THE NUMBER TO THE LAST
 // POWER OF TWO It's actually simple Just bitwise AND away
 // the fractional part and voila, you got yourself the last
